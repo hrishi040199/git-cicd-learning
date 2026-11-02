@@ -22,3 +22,9 @@ def find_duplicates(numbers):
             duplicates.append(number)
 
     return duplicates
+
+def calculate_minimum(numbers):
+    if not numbers:
+        return None
+
+    return min(numbers)
